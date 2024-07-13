@@ -1,73 +1,94 @@
-# Getting Started with Create React App
+<div align="center">
+    <a href="https://workout-app-fv.netlify.app" target="_blank">
+      <img src="public/design/preview.webp" alt="Project Banner">
+    </a>
+  <h3 align="center">Workout Exercises</h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  <br /> 📋 <a name="table">Table of Contents</a>
 
-## Available Scripts
+- ✨ [Introduction](#introduction)
+- ⚙️ [Tech Stack](#tech-stack)
+- 📝 [Features](#features)
+- 🚀 [Quick Start](#quick-start)
 
-In the project directory, you can run:
+##  <br /> <a name="introduction">✨ Introduction</a>
 
-### `npm start`
+**[EN]** Fitness application built on React.js that offers a comprehensive suite of features to enhance your workout experience. With the functionality to choose exercise categories and specific muscle groups, users can browse through a library of over one thousand exercises, each accompanied by practical examples. The application supports pagination for easy navigation and provides detailed information for each exercise.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**[FR]** Application de fitness construite avec React.js qui offre une suite complète de fonctionnalités pour améliorer votre expérience d'entraînement. Grâce à la possibilité de choisir des catégories d'exercices et des groupes musculaires spécifiques, les utilisateurs peuvent parcourir une bibliothèque de plus de mille exercices, chacun accompagné d'exemples pratiques. L'application prend en charge la pagination pour une navigation facile et fournit des informations détaillées pour chaque exercice.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-### `npm test`
+- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **RapidAPI** is a leading platform for discovering and connecting to APIs. It allows developers to seamlessly integrate a wide range of APIs into their applications, providing access to data and services from multiple sources. With RapidAPI, developers can easily manage API subscriptions, monitor usage, and ensure efficient data fetching, which is essential for creating feature-rich applications.
 
-### `npm run build`
+- **Material UI** is a popular React component library that implements Google's Material Design guidelines. It offers a comprehensive suite of pre-designed, customizable components that help developers build beautiful and consistent user interfaces quickly. Material UI's extensive theming capabilities and responsive design ensure a seamless user experience across different devices and screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## <br/> <a name="features">📝 Features</a>
 
-### `npm run eject`
+👉 Advanced React Best Practices such as file structure and hooks.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👉 Creating a Beautiful User Interface using the Material UI (version 5).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👉 Fetching data from unlimited sources using RapidAPI.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## <br /> <a name="quick-start">🚀 Quick Start</a>
 
-## Learn More
+Follow these steps to set up the project locally on your machine.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>**Prerequisites**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Make sure you have the following installed on your machine:
 
-### Code Splitting
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br/>**Cloning the Repository**
 
-### Analyzing the Bundle Size
+```bash
+git clone {git remote URL}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/>**Installation**
 
-### Making a Progressive Web App
+Let's install the project dependencies, from your terminal, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+# or
+yarn install
+```
 
-### Advanced Configuration
+<br/>**Set Up Environment Variables**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Create a new file named `.env` in the root of your project and add the following content:
 
-### Deployment
+```env
+# Rapid API
+REACT_APP_RAPID_API_KEY=3619379170msh13ce30272bef263p12fe1fjsn3c430505bdab
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Replace the placeholder values with your actual respective account credentials:
 
-### `npm run build` fails to minify
+- [Rapid API](https://rapidapi.com/hub)
+- [ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb)
+- [Youtube Search](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# fitness-exercises_app
-# fitness-exercises_app
-# fitness-exercises_app
+
+<br/>**Running the Project**
+
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
