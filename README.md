@@ -20,11 +20,11 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
+- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. [[Docs]](https://react.dev/reference/react)
 
-- **RapidAPI** is a leading platform for discovering and connecting to APIs. It allows developers to seamlessly integrate a wide range of APIs into their applications, providing access to data and services from multiple sources. With RapidAPI, developers can easily manage API subscriptions, monitor usage, and ensure efficient data fetching, which is essential for creating feature-rich applications.
+- **RapidAPI** is a leading platform for discovering and connecting to APIs. It allows developers to seamlessly integrate a wide range of APIs into their applications, providing access to data and services from multiple sources. With RapidAPI, developers can easily manage API subscriptions, monitor usage, and ensure efficient data fetching, which is essential for creating feature-rich applications. [[Docs]](https://docs.rapidapi.com)
 
-- **Material UI** is a popular React component library that implements Google's Material Design guidelines. It offers a comprehensive suite of pre-designed, customizable components that help developers build beautiful and consistent user interfaces quickly. Material UI's extensive theming capabilities and responsive design ensure a seamless user experience across different devices and screen sizes.
+- **Material UI** is a popular React component library that implements Google's Material Design guidelines. It offers a comprehensive suite of pre-designed, customizable components that help developers build beautiful and consistent user interfaces quickly. Material UI's extensive theming capabilities and responsive design ensure a seamless user experience across different devices and screen sizes. [[Docs]](https://mui.com/)
 
 
 
