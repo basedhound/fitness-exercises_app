@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://workout-app-fv.netlify.app" target="_blank">
-      <img src="public/design/preview.webp" alt="Project Banner">
+      <img src="public/design/preview.png" alt="Project Banner">
     </a>
   <h3 align="center">Workout Exercises</h3>
 </div>
@@ -20,11 +20,11 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. [📄](https://react.dev/reference/react)
+- [**React**](https://react.dev/reference/react) is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
-- **RapidAPI** is a leading platform for discovering and connecting to APIs. It allows developers to seamlessly integrate a wide range of APIs into their applications, providing access to data and services from multiple sources. With RapidAPI, developers can easily manage API subscriptions, monitor usage, and ensure efficient data fetching, which is essential for creating feature-rich applications. [📄](https://docs.rapidapi.com)
+- [**RapidAPI**](https://docs.rapidapi.com/) is a leading platform for discovering and connecting to APIs. It allows developers to seamlessly integrate a wide range of APIs into their applications, providing access to data and services from multiple sources. With RapidAPI, developers can easily manage API subscriptions, monitor usage, and ensure efficient data fetching, which is essential for creating feature-rich applications. 
 
-- **Material UI** is a popular React component library that implements Google's Material Design guidelines. It offers a comprehensive suite of pre-designed, customizable components that help developers build beautiful and consistent user interfaces quickly. Material UI's extensive theming capabilities and responsive design ensure a seamless user experience across different devices and screen sizes. [📄](https://mui.com/)
+- [**Material UI**](https://mui.com/) is a popular React component library that implements Google's Material Design guidelines. It offers a comprehensive suite of pre-designed, customizable components that help developers build beautiful and consistent user interfaces quickly. Material UI's extensive theming capabilities and responsive design ensure a seamless user experience across different devices and screen sizes. 
 
 
 
